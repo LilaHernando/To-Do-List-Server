@@ -1,5 +1,7 @@
+import { Application } from "express";
+
 const express = require("express");
-const app = express();
+const app: Application = express();
 const port = 3000;
 
 app.get("/", async (req, res) => {
